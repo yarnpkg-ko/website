@@ -52,7 +52,7 @@
   accept_languages: ["ja"]
 - name: 한국어
   tag: ko
-  enabled: No
+  enabled: Yes
   accept_languages: ["ko"]
 - name: Magyar
   tag: hu
