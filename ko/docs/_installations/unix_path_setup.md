@@ -1,3 +1,3 @@
-You will need to set up the `PATH` environment variable in your terminal to have access to Yarn's binaries globally.
+Yarn의 binary들에 전역으로 접근하기 위해 터미널에서 `PATH` 환경 변수를 설정해야 합니다
 
-Add `export PATH="$PATH:$HOME/.yarn/bin"` to your profile (this may be in your `.profile`, `.bashrc`, `.zshrc`, etc.)
+`export PATH="$PATH:$HOME/.yarn/bin"`을 profile(`.profile`, `.bashrc`, `.zshrc` 등의 파일입니다.)에 추가합니다.

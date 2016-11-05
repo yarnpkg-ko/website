@@ -78,15 +78,15 @@ homepage_featurette_flat_mode_description: |
 # Titles
 ###
 
-docs_getting_started_title: Getting Started
+docs_getting_started_title: 바로 시작하기
 docs_getting_started_description: |
-  Never used a package manager before or just new to Yarn? Let's get you up and
-  running in just a couple of minutes.
+  이전에 한번도 패키지 매니저를 사용한 적이 없거나 Yarn을 처음 접하시나요?
+  잠깐의 투자로 yarn을 사용할 수 있게 만들어 드리죠.
 
-docs_index: Documentation
-docs_getting_started: Getting Started
-docs_install: Installation
-docs_usage: Usage
+docs_index: 문서
+docs_getting_started: 바로 시작하기
+docs_install: 설치
+docs_usage: 사용
 
 docs_yarn_workflow_title: The Yarn Workflow
 docs_yarn_workflow_description: |
@@ -208,15 +208,15 @@ users_add_requirements_logo: >
   Please use a version of your logo that works well on a white background.
 
 install_intro: >
-  Before you start using Yarn, you'll first need to install it on your system.
-  There is a growing number of different ways to install Yarn:
-install_select_platform: Select your platform above
+  Yarn을 사용하기에 앞서, 여러분의 시스템에 yarn을 먼저 설치해야 합니다.
+  Yarn을 설치하는 다양한 방법들이 점차 늘어나고 있습니다:
+install_select_platform: 아래에서 여러분의 플랫폼을 고르세요
 install_os_mac: macOS
 install_os_windows: Windows
 install_os_linux: Linux
-install_os_alternatives: Alternatives
+install_os_alternatives: 대안들
 
-install_test: "Test that Yarn is installed by running:"
+install_test: "Yarn을 실행해서 제대로 설치되었는지 확인해봅시다:"
 
 install_problems_title: Problems?
 install_problems_description: >
