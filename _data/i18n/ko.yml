@@ -73,6 +73,7 @@ homepage_featurette_flat_mode_title: 플랫 모드
 homepage_featurette_flat_mode_description: |
   중복 패키지 생성을 방지하기 위해 의존하는 패키지의 다른 버전들을 하나의 버전으로 합칩니다.
 
+
 ###
 # Titles
 ###

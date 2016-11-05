@@ -4,15 +4,11 @@ guide: docs_getting_started
 layout: guide
 ---
 
-Yarn is a package manager for your code. It allows you to use and share code
-with other developers from around the world. Yarn does this quickly, securely,
-and reliably so you don't ever have to worry.
+Yarn은 당신의 코드를 위한 패키지 관리자입니다. 세계 각지의 개발자들과 코드를 공유하고 사용하게 해줍니다.
+Yarn은 빠르고 안전하며 믿음직스럽게 이를 수행하므로 일말의 걱정도 하실 필요 없습니다.
 
-Yarn allows you to use other developers' solutions to different problems,
-making it easier for you to develop your software. If you have problems, you
-can report issues or contribute back, and when the problem is fixed, you can
-use Yarn to keep it all up to date.
+Yarn은 여러 문제에 다른 개발자의 코드를 사용하게 해주고 소프트웨어 개발을 더 쉽게 만듭니다.
+만약 문제가 있다면, 이슈를 보고하거나 해결에 기여할 수 있고, 문제가 해결되면 Yarn을 이용하여 최신 버전으로 유지할 수 있습니다.
 
-Code is shared through something called a **package** (sometimes referred to as
-a **module**). A package contains all the code being shared as well as a
-`package.json` file which describes the package.
+코드는 **패키지**라고 (종종 **모듈**로도) 불리우는 무언가를 통해서 공유됩니다.
+패키지는 패키지를 설명하는 `package.json` 파일을 포함한 모든 공유될 코드들을 포함합니다.
