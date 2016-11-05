@@ -7,16 +7,16 @@ additional_reading_tags: ["basics", "cli"]
 
 {% include vars.html %}
 
-Now that you have Yarn [installed]({{url_base}}/docs/install), you can start
-using Yarn. Here are some of the most common commands you'll need.
+이제 여러분은 Yarn을 [설치]({{url_base}}/docs/install)했고, Yarn을 사용할 수 있습니다.
+여기에 여러분에게 필요한 자주 쓰는 명령어들을 모아봤습니다.
 
-**Starting a new project**
+**새로운 프로젝트 시작하기**
 
 ```sh
 yarn init
 ```
 
-**Adding a dependency**
+**의존성 추가하기**
 
 ```sh
 yarn add [package]
@@ -24,7 +24,7 @@ yarn add [package]@[version]
 yarn add [package]@[tag]
 ```
 
-**Updating a dependency**
+**의존성 업그레이드하기**
 
 ```sh
 yarn upgrade [package]
@@ -32,19 +32,19 @@ yarn upgrade [package]@[version]
 yarn upgrade [package]@[tag]
 ```
 
-**Removing a dependency**
+**의존성 제거하기**
 
 ```sh
 yarn remove [package]
 ```
 
-**Installing all the dependencies of project**
+**프로젝트 내 모든 의존성 설치하기**
 
 ```sh
 yarn
 ```
 
-or
+혹은
 
 ```sh
 yarn install
