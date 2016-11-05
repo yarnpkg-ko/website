@@ -1,33 +1,28 @@
 
 ### Windows
 
-There are two options for installing Yarn on Windows.
+Windows에서 Yarn을 설치하는 두가지 방법이 있습니다.
 
-#### Download the installer
+#### 인스톨러 내려 받기
 
-This will give you a `.msi` file that when run will walk you through installing
-Yarn on Windows.
+이 방법은 실행시 Windows에 Yarn을 설치하는 `.msi` 파일을 제공합니다.
 
-If you use the installer you will first need to install
-[Node.js](https://nodejs.org/).
+인스톨러를 사용하려면 [Node.js](https://nodejs.org/)를 먼저 설치해야합니다.
 
-<a class="btn btn-primary" href="/latest.msi">Download Installer</a>
+<a class="btn btn-primary" href="https://yarnpkg.com/latest.msi">Download Installer</a>
 
-#### Install via Chocolatey
+#### Chocolatey로 설치하기
 
-[Chocolatey](https://chocolatey.org/) is a package manager for Windows, you can
-install Chocolatey by following
-[these instructions](https://chocolatey.org/install).
+[Chocolatey](https://chocolatey.org/)는 Windows를 위한 패키지 매니저이고, [다음 방법](https://chocolatey.org/install)으로
+Chocolatey를 설치합니다.
 
-Once you have Chocolatey installed, you may install yarn by running the
-following code in your console:
+Chocolatey를 설치하면 다음 명령어를 콘솔에 입력해서 yarn을 설치합니다:
 
 ```sh
 choco install yarn
 ```
 
-This will also ensure that you have [Node.js](https://nodejs.org/) installed.
+[Node.js](https://nodejs.org/)가 설치되어 있어야 합니다.
 
-#### Notice
-
-Please whitelist your project folder and the Yarn cache directory (%LocalAppData%\Yarn) in your antivirus software, otherwise installing packages will be significantly slower as every single file will be scanned as it's written to disk.
+#### 주의
+프로젝트 폴더와 Yarn 캐시 폴더 (%LocalAppData%\Yarn) 를 안티바이러스 화이트 리스트에 추가해주세요. 그렇지 않으면 내려 받은 모든 파일들을 일일이 검사하기 때문에 패키치 설치가 현저하게 느려집니다.

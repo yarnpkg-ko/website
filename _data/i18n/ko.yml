@@ -13,8 +13,8 @@ site_bsd_license: Distributed under BSD License
 site_code_of_conduct: Code of Conduct
 site_edit_this_page: 이 페이지 수정
 
-guides_prev: Previous
-guides_next: Next
+guides_prev: 이전
+guides_next: 다음
 guide_additional_reading: Additional Reading
 
 iframe_github_stars: GitHub Stars
@@ -63,7 +63,7 @@ homepage_featurette_network_performance_description: |
   요청 폭포(본문: request waterfalls)를 금지합니다.
 homepage_featurette_npm_and_bower_title: 다중 등록
 homepage_featurette_npm_and_bower_description: |
-  npm 혹은 bower에 등록된 어느 패키지나 설치할 수 있고 이전과 같은 흐름으로 패키지를 유지할 수 있습니다.
+  npm 혹은 bower에 등록된 모든 패키지를 설치할 수 있고 이전과 같은 흐름으로 패키지를 유지할 수 있습니다.
 
 homepage_featurette_network_resillience_title: 네트워크 복원
 homepage_featurette_network_resillience_description: |
@@ -218,12 +218,12 @@ install_os_alternatives: 대안들
 
 install_test: "Yarn을 실행해서 제대로 설치되었는지 확인해봅시다:"
 
-install_problems_title: Problems?
+install_problems_title: 문제 있으신가요?
 install_problems_description: >
-  If you are unable to install Yarn with any of these installers, please search
-  through GitHub for an existing issue or open a new one.
-install_problems_search: Search for an existing issue
-install_problems_new_issue: Open a new issue
+  위의 방법들로 Yarn의 설치가 불가능하다면, GitHub에서 열려있는 이슈를 확인하거나 새로운 이슈를 열어주세요.
+
+install_problems_search: 열려있는 이슈 탐색하기
+install_problems_new_issue: 새로운 이슈 열기
 
 docs_install_ci: Continuous Integration
 ci_intro: >
