@@ -9,7 +9,7 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 #### tarball을 이용한 메뉴얼 설치
 
-[tarball를 설치]({{site.baseurl}}/latest.tar.gz)하고 아무 곳에 압축 해제하여 Yarn을 설치할 수 있습니다.
+[tarball를 설치](https://yarnpkg.com/latest.tar.gz)하고 아무 곳에 압축 해제하여 Yarn을 설치할 수 있습니다.
 
 ```sh
 cd /opt
