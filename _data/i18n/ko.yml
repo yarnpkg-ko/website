@@ -27,22 +27,22 @@ homepage_tagline: 빠르고, 믿음직스러우며, 그리고 안전한 의존�
 
 homepage_feature_fast_title: 끝내주게 빨라요.
 homepage_feature_fast_description: |
-  Yarn은 다운로드 받은 모든 패키지를 저장하므로 다시 다운로드 받을 필요 없습니다. 또한 작업들을
+  Yarn은 내려받은 모든 패키지를 저장하므로 다시 내려받을 필요 없습니다. 또한, 작업을
   병렬로 처리하여 자원 활용을 극대화하므로 그 어느 때보다 더 빠르게 설치합니다.
 
 homepage_feature_fast_image_alt: Generic placeholder image
 
 homepage_feature_secure_title: 무지 안전해요.
 homepage_feature_secure_description: |
-  Yarn은 각각의 설치된 패키지들이 실행되기 전에 무결성을 확인하기 위해 체크섬을 사용합니다.
+  Yarn은 각각 설치된 패키지들을 실행하기 전에 무결성을 확인하기 위해 체크섬을 사용합니다.
 
 homepage_feature_secure_image_alt: Generic placeholder image
 
 homepage_feature_reliable_title: 엄청 믿음직스러워요.
 homepage_feature_reliable_description: |
-  Using a detailed, but concise, lockfile format, and a deterministic algorithm
-  for installs, Yarn is able to guarantee that an install that worked on one
-  system will work exactly the same way on any other system.
+  Yarn은 상세하고 간결한 lockfile과 결정론적 알고리즘을 설치에 이용하여,
+  특정 시스템에 적용된 설치가 다른 어느 시스템에서도 똑같이 적용됨을 보장합니다.
+
 homepage_feature_reliable_image_alt: Generic placeholder image
 
 homepage_c2a_text: 무엇을 기다리고 있나요?
@@ -51,29 +51,27 @@ homepage_install_button: Yarn 설치하기
 
 homepage_featurette_offline_title: 오프라인 모드
 homepage_featurette_offline_description: |
-  만약 전에 패키지를 설치한 적이 있다면, 어떠한 인터넷 연결 없이 다시 설치할 수 있어요.
+  만약 이전에 패키지를 설치한 적이 있다면, 인터넷 연결 없이 다시 설치할 수 있습니다.
 
-
-homepage_featurette_deterministic_title: Deterministic
+homepage_featurette_deterministic_title: 결정론적
 homepage_featurette_deterministic_description: |
-  The same dependencies will be installed the same exact way across every
-  machine regardless of install order.
-homepage_featurette_network_performance_title: Network Performance
+  설치 순서와 상관 없이 모든 장치에서 같은 의존성들을 정확히 같은 방식으로 설치합니다
+
+homepage_featurette_network_performance_title: 네트워크 성능
 homepage_featurette_network_performance_description: |
-  Yarn efficiently queues up requests and avoids request waterfalls in order
-  to maximize network utilization.
-homepage_featurette_npm_and_bower_title: Multiple Registries
+  Yarn은 효율적으로 요청들을 queue에 쌓고 네트워크 활용을 최대화하기 위해
+  요청 폭포(본문: request waterfalls)를 금지합니다.
+homepage_featurette_npm_and_bower_title: 다중 등록
 homepage_featurette_npm_and_bower_description: |
-  Install any package from either npm or Bower and keep your package workflow
-  the same.
-homepage_featurette_network_resillience_title: Network Resilience
+  npm 혹은 bower에 등록된 어느 패키지나 설치할 수 있고 이전과 같은 흐름으로 패키지를 유지할 수 있습니다.
+
+homepage_featurette_network_resillience_title: 네트워크 복원
 homepage_featurette_network_resillience_description: |
-  A single request failing won't cause an install to fail. Requests are retried
-  upon failure.
-homepage_featurette_flat_mode_title: Flat Mode
+  한번의 요청 실패로 설치가 취소되지 않습니다. 요청이 성공할때까지 재시도합니다.
+
+homepage_featurette_flat_mode_title: 플랫 모드
 homepage_featurette_flat_mode_description: |
-  Resolve mismatching versions of dependencies to a single version to avoid
-  creating duplicates.
+  중복 패키지 생성을 방지하기 위해 의존하는 패키지의 다른 버전들을 하나의 버전으로 합칩니다.
 
 ###
 # Titles
