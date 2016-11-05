@@ -1,27 +1,24 @@
-### Alternatives
+### 대안들
 
-If you are using another OS or one of the other options specific to your OS
-will not work for you, there are a couple of alternatives. You will need to
-[install Node.js](https://nodejs.org/) if you don't already have it installed.
+다른 OS를 사용하고 있거나 OS에 특화된 설정이 작동하지 않는 경우, 몇 가지 대안이 존재합니다.
+만약 Node.js를 설치하지 않았다면, [Node.js를 설치](https://nodejs.org/)해야 합니다.
 
-On common Linux distributions such as Debian, Ubuntu and CentOS, it is
-recommended to install Yarn via our packages instead.
+Debian, Ubuntu 그리고 CentOS와 같은 흔한 Linux distributions에서, 우리의 패키지를 통하여 Yarn을 설치하는 것을 추천합니다.
 
 {% include_relative _installations/tarball.md %}
 
-#### Install via npm
+#### npm을 통해서 설치하기
 
-You can also install Yarn through the [npm package manager](http://npmjs.org/)
-if you already have it installed. If you already have
-[Node.js](https://nodejs.org/) installed then you should already have npm.
+또한 [node package manager](http://npmjs.org/)를 설치했다면 이를 통해서 Yarn을 설치할 수 있습니다.
+[Node.js](https://nodejs.org/)를 설치했다면 npm 또한 설치되어 있습니다.
 
-Once you have npm installed you can run:
+npm을 가지고 있다면 다음 명령어를 실행합니다.
 
 ```sh
 npm install --global yarn
 ```
 
-### Path Setup
+### 경로 설정
 
 #### Unix/Linux/macOS
 

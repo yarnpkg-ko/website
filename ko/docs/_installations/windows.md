@@ -3,13 +3,13 @@
 
 Windows에서 Yarn을 설치하는 두가지 방법이 있습니다.
 
-#### 인스톨러 내려 받기
+#### 인스톨러 내려받기
 
 이 방법은 실행시 Windows에 Yarn을 설치하는 `.msi` 파일을 제공합니다.
 
 인스톨러를 사용하려면 [Node.js](https://nodejs.org/)를 먼저 설치해야합니다.
 
-<a class="btn btn-primary" href="https://yarnpkg.com/latest.msi">Download Installer</a>
+<a class="btn btn-primary" href="https://yarnpkg.com/latest.msi">인스톨러 내려받기</a>
 
 #### Chocolatey로 설치하기
 
