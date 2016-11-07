@@ -7,24 +7,24 @@ additional_reading_tags: ["dependencies", "package-json", "yarn-lock", "cli-add"
 
 {% include vars.html %}
 
-When you want to add, upgrade, or remove dependencies there are a couple of
-different commands you need to know.
+의존성을 추가하거나 갱신하거나 삭제하고 싶은 경우, 몇 가지 명령어에 대해 알고 있어야 합니다.
 
-Each command will automatically update your
-[`package.json`]({{url_base}}/docs/package-json) and
-[`yarn.lock`]({{url_base}}/docs/yarn-lock) files.
 
-### Adding a dependency <a class="toc" id="toc-adding-a-dependency" href="#toc-adding-a-dependency"></a>
+각각 명령어는 자동으로 여러분의
+[`package.json`]({{url_base}}/docs/package-json)과
+[`yarn.lock`]({{url_base}}/docs/yarn-lock) 파일을 갱신합니다.
 
-If you want to use another package, you first need to add it as a dependency.
-In order to do that you should run:
+### 의존성 추가하기 <a class="toc" id="toc-의존성-추가하기" href="#toc-의존성-추가하기"></a>
+
+다른 패키지를 사용하고 싶다면, 먼저 의존성 목록에 추가해야합니다.
+그러기 위해서 다음 명령어를 실행합니다:
 
 ```sh
 yarn add [package]
 ```
 
-This will automatically add the `[package]` to your dependencies in your
-`package.json`. It will also update your `yarn.lock` to reflect the change.
+이 명령어는 자동으로 `package.json` 파일의 의존성 목록에 `[package]`를 추가합니다.
+뿐만 아니라, 변동 사항을 반영하기 위해 `yarn.lock` 파일을 갱신합니다.
 
 ```diff
   {
@@ -35,24 +35,22 @@ This will automatically add the `[package]` to your dependencies in your
   }
 ```
 
-You can also add other
-[types of dependencies]({{url_base}}/docs/dependency-types) using flags:
+또한 플래그를 사용하여 다른 [종류의 의존성]({{url_base}}/docs/dependency-types)
+을 추가할 수 있습니다:
 
 - `yarn add --dev` to add to `devDependencies`
 - `yarn add --peer` to add to `peerDependencies`
 - `yarn add --optional` to add to `optionalDependencies`
 
-You can specify which version of a package you want to install by specifying
-either a [dependency version]({{url_base}}/docs/dependency-versions) or a
-[tag]({{url_base}}/docs/cli/tag).
+[의존성 버전]({{url_base}}/docs/dependency-versions)이나 [태그]({{url_base}}/docs/cli/tag)를
+명시하여 설치하고 싶은 버전의 패키지를 특정할 수 있습니다.
 
 ```sh
 yarn add [package]@[version]
 yarn add [package]@[tag]
 ```
 
-The `[version]` or `[tag]` will be what gets added to your `package.json`
-and then resolved against when installing the dependency.
+`[버전]`이나 `[태그]`는 `package.json` 파일에 추가되고 의존성을 설치할때 이용됩니다.
 
 For example:
 
@@ -74,7 +72,7 @@ yarn add package-3@beta
 
 
 
-### Upgrading a dependency <a class="toc" id="toc-upgrading-a-dependency" href="#toc-upgrading-a-dependency"></a>
+### 의존성 판올림하기 <a class="toc" id="toc-의존성-판올림하기" href="#toc-의존성-판올림하기"></a>
 
 ```sh
 yarn upgrade [package]
@@ -82,7 +80,7 @@ yarn upgrade [package]@[version]
 yarn upgrade [package]@[tag]
 ```
 
-This will upgrade your `package.json` and your `yarn.lock` file.
+이 명령어는 `package.json`과 `yarn.lock` 파일을 판올림합니다.
 
 ```diff
   {
@@ -94,10 +92,10 @@ This will upgrade your `package.json` and your `yarn.lock` file.
   }
 ```
 
-### Removing a dependency <a class="toc" id="toc-removing-a-dependency" href="#toc-removing-a-dependency"></a>
+### 의존성 제거하기 <a class="toc" id="toc-의존성-제거하기" href="#toc-의존성-제거하기"></a>
 
 ```sh
 yarn remove [package]
 ```
 
-This will update your `package.json` and your `yarn.lock` file.
+이 명령어는 `package.json`과 `yarn.lock` 파일을 갱신합니다.
