@@ -225,7 +225,7 @@ install_problems_description: >
 install_problems_search: 열려있는 이슈 탐색하기
 install_problems_new_issue: 새로운 이슈 열기
 
-docs_install_ci: Continuous Integration
+docs_install_ci: 지속적인 통합
 ci_intro: >
   Yarn can easily be used in various continuous integration systems. To speed up
   builds, the Yarn cache directory can be saved across builds.
