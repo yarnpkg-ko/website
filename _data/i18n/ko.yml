@@ -88,27 +88,27 @@ docs_getting_started: 바로 시작하기
 docs_install: 설치
 docs_usage: 사용
 
-docs_yarn_workflow_title: The Yarn Workflow
+docs_yarn_workflow_title: Yarn의 작업흐름
 docs_yarn_workflow_description: |
-  How do I use Yarn? There are basic workflows for both creating and consuming
-  Yarn packages that will help you get productive quickly.
+  어떻게 Yarn을 사용할까요? 생산성을 높이는데 도움을 주는 Yarn 패키지들을 만들고 사용하는
+  기본적인 작업흐름들이 있습니다.
 
-docs_yarn_workflow: The Yarn Workflow
-docs_creating_a_project: Creating a new project
-docs_managing_dependencies: Managing dependencies
-docs_installing_dependencies: Installing dependencies
-docs_version_control: Working with version control
+docs_yarn_workflow: Yarn의 작업흐름
+docs_creating_a_project: 새로운 프로젝트 생성하기
+docs_managing_dependencies: 의존성 관리하기
+docs_installing_dependencies: 의존성 설치하기
+docs_version_control: 버전 제어와 함께 사용하기
 
-docs_cli_title: CLI Commands
+docs_cli_title: CLI 명령어
 docs_cli_description: |
-  Yarn is executed through a rich set of commands allowing package
-  installation, administration, publishing, and more.
+  패키지 설치, 관리, 퍼블리싱 등을 책임지는 풍부한 명령어들을 이용하여 Yarn을 실행할 수 있습니다.
 
-docs_cli_index: CLI Introduction
+
+docs_cli_index: CLI 소개
 docs_cli_add: yarn add
 docs_cli_add_description: |
-  When you want to use another package, you first need to add it to
-  your dependencies. Running `yarn add` installs it into your project.
+  다른 패키지를 사용하고 싶은 경우, 의존성 목록에 그 패키지를 추가해야 합니다.
+  `yarn add`을 실행하면 여러분의 프로젝트에서 패키지를 설치합니다.
 docs_cli_bin: yarn bin
 docs_cli_cache: yarn cache
 docs_cli_check: yarn check

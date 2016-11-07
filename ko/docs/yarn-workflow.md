@@ -4,14 +4,13 @@ guide: docs_yarn_workflow
 layout: guide
 ---
 
-Introducing a package manager into your project introduces a new workflow
-around dependencies. Yarn tries its best to stay out of your way and make each
-step of this workflow simple to understand.
+여러분이 프로젝트에 패키지 매니저를 도입하면, 의존성을 다루는 새로운 작업흐름을 만날 수 있습니다.
+Yarn은 여러분의 방식에 관여하지 않고 작업흐름의 각각 단계를 이해하기 쉽게 만들기 위해 노력하고 있습니다.
 
-There are a few things you should know about the basic workflow:
+기본 작업흐름에 대하여 여러분이 알아야 할 몇 가지 사항들이 있습니다:
 
-  1. Creating a new project
-  2. Adding/updating/removing dependencies
-  3. Installing/reinstalling your dependencies
-  4. Working with version control (i.e. git)
-  5. Continuous Integration
+  1. 새로운 프로젝트 만들기
+  2. 의존성들 추가/갱신/삭제
+  3. 의존성들 설치/재설
+  4. 버전 제어와 함께 사용하기 (예. git)
+  5. 지속적인 통합
