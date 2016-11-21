@@ -71,7 +71,7 @@ homepage_featurette_network_resillience_description: |
 
 homepage_featurette_flat_mode_title: 플랫 모드
 homepage_featurette_flat_mode_description: |
-  중복 패키지 생성을 방지하기 위해 의존하는 패키지의 다른 버전들을 하나의 버전으로 합칩니다.
+  중복되는 패키지 생성을 방지하기 위해 의존하는 패키지의 다른 버전들을 하나의 버전으로 합칩니다.
 
 
 ###
@@ -208,9 +208,9 @@ users_add_requirements_logo: >
   Please use a version of your logo that works well on a white background.
 
 install_intro: >
-  Yarn을 사용하기에 앞서, 여러분의 시스템에 yarn을 먼저 설치해야 합니다.
-  Yarn을 설치하는 다양한 방법들이 점차 늘어나고 있습니다:
-install_select_platform: 아래에서 여러분의 플랫폼을 고르세요
+  Yarn을 사용하기에 앞서, 먼저 yarn을 시스템에 설치해야 합니다.
+  Yarn을 설치하는 다양한 방법들이 있습니다:
+install_select_platform: 아래에서 플랫폼을 고르세요
 install_os_mac: macOS
 install_os_windows: Windows
 install_os_linux: Linux

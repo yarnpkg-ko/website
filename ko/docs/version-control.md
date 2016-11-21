@@ -5,14 +5,14 @@ layout: guide
 additional_reading_tags: ["dependencies", "package-json", "yarn-lock"]
 ---
 
-To have people successfully develop or use your package, you need to ensure that all the necessary files are checked into your source control system.
+다른 개발자들이 당신의 패키지를 개발하거나 이용하려면, 필요한 모든 파일들을 소스 제어 시스템에 확실히 등록해야 합니다.
 
-### Required Files <a class="toc" id="toc-required-files" href="#toc-required-files"></a>
+### 필요한 파일들 <a class="toc" id="toc-필요한-파일들" href="#toc-필요한-파일들"></a>
 
-The following files must be checked into source control for anyone to be able to manage your package:
+다른 개발자가 여러분의 패키지를 관리하려면 아래의 파일들이 꼭 소스 제어에 포함되야 합니다.
 
-- `package.json`: This has all the current dependencies for your package.
-- `yarn.lock`: This stores the exact versions of each dependency for your package.
-- The actual source code that provides the functionality for your package.
+- `pakcage.json`: 여러분의 패키지가 의존하는 패키지들에 대한 목록을 포함합니다.
+- `yarn.lock`: 여러분의 패키지가 의존하는 패키지 각각의 정확한 버전을 저장합니다.
+- 당신의 패키지에 기능성을 부여하는 실제 소스 코드들
 
-> Check out the [Yarn Example Package](https://github.com/yarnpkg/example-yarn-package) for the minimum requirements necessary for a Yarn package.
+> Yarn 패키지에서 필요한 최소의 요구사항을 담은 [Yarn 예제 패키지](https://github.com/yarnpkg/example-yarn-package)를 직접 확인해보세요.
